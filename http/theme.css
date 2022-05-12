@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.cursor {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background: black;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-left: .5em solid;
+    
+    -webkit-animation: typing 12s steps(13, end) infinite,
+        blinking 1s step-end infinite;
+    animation: typing 12s steps(13, end) infinite,
+        blinking 1s step-end infinite;
+}
